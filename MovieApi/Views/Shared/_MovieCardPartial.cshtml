@@ -11,12 +11,12 @@
     {
         <img src="@Model.Poster" class="card-img-top" alt="...">
     }
-<div class="img-div block card-body">
+<div class=" block card-body">
     <h5 class="card-title">@Model.Title &nbsp</h5>
     <p class="card-text">@Model.Year. &nbsp</p>
     @if (Model.Plot == null)
     {
-<div class="show">
+<div >
     <a movie="@Model"></a>
     @*<movie-detail movie="@Model"></movie-detail>*@
     @*<a asp-controller="Home" asp-action="Details" asp-route-id="@Model.imdbID" class="btn btn-primary">Show Details</a>*@

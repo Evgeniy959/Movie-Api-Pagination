@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Xguoi37Lg9dKPKBcCF+tOyMOfqdTn2YmWlVQovg4dlwcTC/ZBSadyutqxHmVcoZWf52A5+Sxv9XtqtnIiO1YEQ==",
+  "dgSpecHash": "bcizJ6UhbW6Z8srZyiRxOL3ipwruNqTk8P/C1iVyjToUj/g4iXzQ//zqxqpQjK50nL9Wt5iwUksGypj4DMFwyg==",
   "success": true,
-  "projectFilePath": "D:\\Сохранено\\Downloads\\Учеба\\C#\\Проекты C#\\ASP.NET\\ClassWork\\MovieApi 2 Git\\MovieApi-2\\MovieApi\\MovieApi.csproj",
+  "projectFilePath": "D:\\Сохранено\\Downloads\\Учеба\\C#\\Проекты C#\\ASP.NET\\ClassWork\\Movie Api Pagination\\Movie-Api-Pagination\\MovieApi\\MovieApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Пользователь\\.nuget\\packages\\advancedstringbuilder\\0.1.0\\advancedstringbuilder.0.1.0.nupkg.sha512",
     "C:\\Users\\Пользователь\\.nuget\\packages\\dartsasshost\\1.0.0-preview5\\dartsasshost.1.0.0-preview5.nupkg.sha512",

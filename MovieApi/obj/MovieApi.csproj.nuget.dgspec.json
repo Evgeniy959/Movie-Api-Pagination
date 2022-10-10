@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Сохранено\\Downloads\\Учеба\\C#\\Проекты C#\\ASP.NET\\ClassWork\\MovieApi 2 Git\\MovieApi-2\\MovieApi\\MovieApi.csproj": {}
+    "D:\\Сохранено\\Downloads\\Учеба\\C#\\Проекты C#\\ASP.NET\\ClassWork\\Movie Api Pagination\\Movie-Api-Pagination\\MovieApi\\MovieApi.csproj": {}
   },
   "projects": {
-    "D:\\Сохранено\\Downloads\\Учеба\\C#\\Проекты C#\\ASP.NET\\ClassWork\\MovieApi 2 Git\\MovieApi-2\\MovieApi\\MovieApi.csproj": {
+    "D:\\Сохранено\\Downloads\\Учеба\\C#\\Проекты C#\\ASP.NET\\ClassWork\\Movie Api Pagination\\Movie-Api-Pagination\\MovieApi\\MovieApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Сохранено\\Downloads\\Учеба\\C#\\Проекты C#\\ASP.NET\\ClassWork\\MovieApi 2 Git\\MovieApi-2\\MovieApi\\MovieApi.csproj",
+        "projectUniqueName": "D:\\Сохранено\\Downloads\\Учеба\\C#\\Проекты C#\\ASP.NET\\ClassWork\\Movie Api Pagination\\Movie-Api-Pagination\\MovieApi\\MovieApi.csproj",
         "projectName": "MovieApi",
-        "projectPath": "D:\\Сохранено\\Downloads\\Учеба\\C#\\Проекты C#\\ASP.NET\\ClassWork\\MovieApi 2 Git\\MovieApi-2\\MovieApi\\MovieApi.csproj",
+        "projectPath": "D:\\Сохранено\\Downloads\\Учеба\\C#\\Проекты C#\\ASP.NET\\ClassWork\\Movie Api Pagination\\Movie-Api-Pagination\\MovieApi\\MovieApi.csproj",
         "packagesPath": "C:\\Users\\Пользователь\\.nuget\\packages\\",
-        "outputPath": "D:\\Сохранено\\Downloads\\Учеба\\C#\\Проекты C#\\ASP.NET\\ClassWork\\MovieApi 2 Git\\MovieApi-2\\MovieApi\\obj\\",
+        "outputPath": "D:\\Сохранено\\Downloads\\Учеба\\C#\\Проекты C#\\ASP.NET\\ClassWork\\Movie Api Pagination\\Movie-Api-Pagination\\MovieApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
