@@ -3,26 +3,36 @@
 <div class="card">
     @if (Model.Plot == null)
     {
-    <a asp-action="Details" asp-controller="Home" asp-route-id="@Model.imdbID">
-        <img src="@Model.Poster" onerror="event.target.src='/images/post.png'" class="card-img-top" alt="...">
-    </a>
+        <a asp-action="Details" asp-controller="Home" asp-route-id="@Model.imdbID">
+            <div class="img-container">
+                <div class="img-blur" style="background-image:url('@Model.Poster')"></div>
+                <img src="@Model.Poster" onerror="event.target.src='/images/post.png'" class="card-img-top" alt="...">
+            </div>
+
+            @*<img src="@Model.Poster" onerror="event.target.src='/images/post.png'" class="card-img-top" alt="...">*@
+        </a>
     }
     else
     {
-        <img src="@Model.Poster" class="card-img-top" alt="...">
+        <div class="img-container">
+            <div class="img-blur" style="background-image:url('@Model.Poster')"></div>
+            <img src="@Model.Poster" onerror="event.target.src='/images/post.png'" class="card-img-top" alt="...">
+        </div>
+
+        @*<img src="@Model.Poster" class="card-img-top" alt="...">*@
     }
-<div class=" block card-body">
-    <h5 class="card-title">@Model.Title &nbsp</h5>
-    <p class="card-text">@Model.Year. &nbsp</p>
-    @if (Model.Plot == null)
-    {
-<div >
-    <a movie="@Model"></a>
-    @*<movie-detail movie="@Model"></movie-detail>*@
-    @*<a asp-controller="Home" asp-action="Details" asp-route-id="@Model.imdbID" class="btn btn-primary">Show Details</a>*@
-</div>
-    }
-</div>
+    <div class=" block card-body">
+        <h5 class="card-title">@Model.Title &nbsp</h5>
+        <p class="card-text">@Model.Year. &nbsp</p>
+        @if (Model.Plot == null)
+        {
+            <div>
+                <a movie="@Model"></a>
+                @*<movie-detail movie="@Model"></movie-detail>*@
+                @*<a asp-controller="Home" asp-action="Details" asp-route-id="@Model.imdbID" class="btn btn-primary">Show Details</a>*@
+            </div>
+        }
+    </div>
 </div>
 
 @section Scripts{
