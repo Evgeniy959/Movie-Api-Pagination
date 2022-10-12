@@ -33,8 +33,15 @@ using MovieApi.HtmlHelpers;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 4 "D:\Сохранено\Downloads\Учеба\C#\Проекты C#\ASP.NET\ClassWork\Movie Api Pagination\Movie-Api-Pagination\MovieApi\Views\_ViewImports.cshtml"
+using MovieApi.ViewModel;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"cfbd979af7f593213ffef60960e456becea224bc", @"/Views/Shared/_MovieCardPartial.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"e6b0997fe364d13359ede1978d3da0b7e8911c73", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"770eeec0080a693693d02b7ad789c5e80d2358ce", @"/Views/_ViewImports.cshtml")]
     public class Views_Shared__MovieCardPartial : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<Details>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-action", "Details", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -74,7 +81,7 @@ using MovieApi.HtmlHelpers;
 #line hidden
 #nullable disable
             WriteLiteral("        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "cfbd979af7f593213ffef60960e456becea224bc4593", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "cfbd979af7f593213ffef60960e456becea224bc4838", async() => {
                 WriteLiteral("\r\n            <div class=\"img-container\">\r\n                <div class=\"img-blur\"");
                 BeginWriteAttribute("style", " style=\"", 238, "\"", 283, 3);
                 WriteAttributeValue("", 246, "background-image:url(\'", 246, 22, true);
@@ -196,7 +203,7 @@ WriteAttributeValue("", 740, Model.Poster, 740, 13, false);
 #line hidden
 #nullable disable
             WriteLiteral("            <div>\r\n                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "cfbd979af7f593213ffef60960e456becea224bc11288", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "cfbd979af7f593213ffef60960e456becea224bc11533", async() => {
             }
             );
             __MovieApi_TagHelpers_MovieDetailTagHelper = CreateTagHelper<global::MovieApi.TagHelpers.MovieDetailTagHelper>();

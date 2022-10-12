@@ -29,19 +29,22 @@ namespace MovieApi.Services
             this.memoryCache = memoryCache;
         }
 
-        public async Task<MovieApiResponse> SearchByTitle(string title)
+        public async Task<MovieApiResponse> SearchByTitle(string title, int page)
         {
             MovieApiResponse result = null;
-            if (!memoryCache.TryGetValue(title.ToLower(), out result))
+            string search = title.ToLower();
+            //if (!memoryCache.TryGetValue(title.ToLower(), out result))
+            if (!memoryCache.TryGetValue($"{search}_page{page}", out result))
             {
-                var response = await httpClient.GetAsync($"{BaseUrl}?apikey={ApiKey}&s={title}");
+                var response = await httpClient.GetAsync($"{BaseUrl}?apikey={ApiKey}&s={title}&page={page}");
                 var json = await response.Content.ReadAsStringAsync();
                 result = JsonSerializer.Deserialize<MovieApiResponse>(json);
                 if (result.Response == "False")
                 {
                     throw new Exception(result.Error);
                 }
-                memoryCache.Set(title.ToLower(), result);
+                //memoryCache.Set(title.ToLower(), result);
+                memoryCache.Set($"{search}_page{page}", result);
             }
             
             return result;

@@ -8,7 +8,7 @@ namespace MovieApi.Services
         string ApiKey { get; }
         string BaseUrl { get; }
 
-        Task<MovieApiResponse> SearchByTitle(string title);
+        Task<MovieApiResponse> SearchByTitle(string title, int page);
         Task<Details> SearchById(string id);
     }
 }

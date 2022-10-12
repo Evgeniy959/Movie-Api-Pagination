@@ -2,6 +2,7 @@
 using Microsoft.Extensions.Logging;
 using MovieApi.Models;
 using MovieApi.Services;
+using MovieApi.ViewModel;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -27,12 +28,24 @@ namespace MovieApi.Controllers
             return View();
         }
         
-        public async Task<IActionResult> Search(string title)
+        public async Task<IActionResult> Search(string movieTitle, int page = 1)
         {
-            var result = await movieApiService.SearchByTitle(title);
-            ViewBag.Result = result.totalResults;
-            ViewBag.MovieTitle = result?.Search[0]?.Title; 
-            return View(result);
+            // ViewBag.MovieTitle = movieTitle;
+            var result = await movieApiService.SearchByTitle(movieTitle, page);
+            //ViewBag.TotalResults = result.TotalResults;
+            //ViewBag.TotalPages = Math.Ceiling(result.TotalResults / 10.0);
+            //   ViewBag.CurentPage = page;
+            ViewBag.MovieTitle = result?.Movies.FirstOrDefault()?.Title;
+            
+            SearchViewModel searchViewModel = new SearchViewModel()
+            {
+                CurrentPage = page,
+                Title = movieTitle,
+                Movies = result.Movies,
+                TotalPages = (int)Math.Ceiling(result.TotalResults / 10.0),
+                TotalResults = result.TotalResults
+            };
+            return View(searchViewModel);
         }
         public async Task<IActionResult> Details(string id)
         {

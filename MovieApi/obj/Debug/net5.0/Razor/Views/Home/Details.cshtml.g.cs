@@ -33,8 +33,15 @@ using MovieApi.HtmlHelpers;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 4 "D:\Сохранено\Downloads\Учеба\C#\Проекты C#\ASP.NET\ClassWork\Movie Api Pagination\Movie-Api-Pagination\MovieApi\Views\_ViewImports.cshtml"
+using MovieApi.ViewModel;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"0bdb2437d7d30e756974fdbc4b91353f218a907d", @"/Views/Home/Details.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"e6b0997fe364d13359ede1978d3da0b7e8911c73", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"770eeec0080a693693d02b7ad789c5e80d2358ce", @"/Views/_ViewImports.cshtml")]
     public class Views_Home_Details : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<Details>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("name", "_MovieCardPartial", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -72,7 +79,7 @@ using MovieApi.HtmlHelpers;
 #line hidden
 #nullable disable
             WriteLiteral("\r\n<h1>Details</h1>\r\n<div class=\"row\">\r\n    <div class=\"col-md-4\">\r\n        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("partial", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "0bdb2437d7d30e756974fdbc4b91353f218a907d4172", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("partial", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "0bdb2437d7d30e756974fdbc4b91353f218a907d4417", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_TagHelpers_PartialTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.PartialTagHelper>();

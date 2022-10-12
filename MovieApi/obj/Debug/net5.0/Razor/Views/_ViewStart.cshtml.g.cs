@@ -33,8 +33,15 @@ using MovieApi.HtmlHelpers;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 4 "D:\Сохранено\Downloads\Учеба\C#\Проекты C#\ASP.NET\ClassWork\Movie Api Pagination\Movie-Api-Pagination\MovieApi\Views\_ViewImports.cshtml"
+using MovieApi.ViewModel;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7091c65830b0329e613be026ede8a57552863778", @"/Views/_ViewStart.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"e6b0997fe364d13359ede1978d3da0b7e8911c73", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"770eeec0080a693693d02b7ad789c5e80d2358ce", @"/Views/_ViewImports.cshtml")]
     public class Views__ViewStart : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

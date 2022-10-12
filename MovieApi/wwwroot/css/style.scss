@@ -13,6 +13,7 @@
 .card {
     overflow: hidden;
     height: 450px;
+    margin-top: 5px;
 
     .img-container {
         position: relative;
@@ -22,7 +23,6 @@
             object-fit: contain;
             position: relative;
             z-index: 1;
-            margin-top: 20px;
         }
 
         .img-blur {
